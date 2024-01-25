@@ -1,0 +1,2 @@
+# document
+record my document
