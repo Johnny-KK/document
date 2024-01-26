@@ -3,8 +3,18 @@
     "vitepress": "1.0.0-rc.40"
   },
   "scripts": {
+    "commit": "git-cz",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0"
   }
 }
